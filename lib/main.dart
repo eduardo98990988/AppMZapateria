@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:zapateria/InformacionProducto.dart';
 import 'package:zapateria/Login.dart';
+import 'package:zapateria/Materiales.dart';
 import 'package:zapateria/Menu.dart';
 import 'package:zapateria/Productos.dart';
 
@@ -18,8 +19,9 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => const InicioSesionScreen(),
         '/Menu': (context) => const MenuScreen(),
-        '/Productos': (context) => const ProductScreen(),
-        '/InformacionProducto': (context) => const InformacionProductoScreen()
+        '/Productos': (context) =>const ProductScreen(),
+        '/InformacionProducto': (context) => const InformacionProductoScreen(),
+        '/Materiales': (context) => const MaterialesScreen()
       },
     );
   }
