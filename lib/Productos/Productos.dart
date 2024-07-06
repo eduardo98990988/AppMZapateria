@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:zapateria/InformacionProducto.dart';
+import 'package:zapateria/Informacion/InformacionProducto.dart';
 
 // Definición de una clase Producto
 class Producto {

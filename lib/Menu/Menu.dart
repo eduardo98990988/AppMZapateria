@@ -102,6 +102,61 @@ class MenuScreen extends StatelessWidget {
                             },
                             child: Text('Ver Materiales'),
                           ),
+                           SizedBox(height: 20),
+                          ListTile(
+                            leading: Icon(Icons.person),
+                            title: Text(
+                              'ReporteDatos',
+                              style: TextStyle(
+                                color: Color(0xff070707),
+                                fontSize: 15,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ),
+                          ElevatedButton(
+                            onPressed: () {
+                              Navigator.pushNamed(context, '/ReporteDatos');
+                            },
+                            child: Text('Ver Reportes'),
+                          ),
+                           SizedBox(height: 20),
+                          ListTile(
+                            leading: Icon(Icons.person),
+                            title: Text(
+                              'ReportesCompras',
+                              style: TextStyle(
+                                color: Color(0xff070707),
+                                fontSize: 15,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ),
+                          ElevatedButton(
+                            onPressed: () {
+                              Navigator.pushNamed(context, '/Reportes');
+                            },
+                            child: Text('Ver Reportes'),
+                          ),
+                           SizedBox(height: 20),
+                          ListTile(
+                            leading: Icon(Icons.person),
+                            title: Text(
+                              'ResumenCompra',
+                              style: TextStyle(
+                                color: Color(0xff070707),
+                                fontSize: 15,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ),
+                          ElevatedButton(
+                            onPressed: () {
+                              Navigator.pushNamed(context, '/ResumenCompra');
+                            },
+                            child: Text('Ver Resumen'),
+                          ),
+
                         ],
                       ),
                     ),
